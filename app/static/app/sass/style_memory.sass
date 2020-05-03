@@ -1,0 +1,66 @@
+$bg_url: url("images/white-waves.png")
+$bg_tron: url("images/tron.png")
+
+=karta_display
+	display: inline-block
+	width: 192px
+	height: 125px
+	margin-right: 25px
+	margin-left: 0px
+	background-position: center
+	
+	border: solid 4px #5A0893
+	filter: brightness(100%)
+
+	border-radius: 4px
+	transition: all 0.6s ease-in-out
+
+=display_center
+	text-align: center
+	margin-right: auto
+	margin-left: auto
+	
+body
+	background-image: $bg_url
+	
+	margin: 0
+	padding: 0
+	color: white
+	
+
+.karta
+	+karta_display
+	
+	filter: brightness(60%)
+	background-image: $bg_tron
+	cursor: pointer
+	
+	&:hover
+		border: solid 4px #5A0893
+		filter: brightness(100%)
+
+
+.footer
+	position: fixed
+
+.kartaWlaczona
+	+karta_display
+
+	
+.plansza
+	+display_center
+	width: 1010px
+	color: white
+	font-size: 48px
+	color: black
+	margin-top: 15vh
+
+.wygrane
+	+display_center
+	color: black
+	margin-top: 15vh
+	font-size: 48px
+
+
+
+	

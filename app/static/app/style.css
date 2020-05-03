@@ -1,0 +1,120 @@
+body{
+margin:0;
+padding:0;
+color:white;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #333;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: #111;
+}
+#pojem{
+color:black;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+    margin-top:-1px;
+	padding:0px;
+	width:75%;
+
+}
+
+#linki{
+list-style:none;
+margin:0;
+padding:0px;
+}
+#linki a{
+text-decoration: none;
+color:black;
+}
+#linki li{
+margin-top:10px;
+margin-bottom:10px;
+font-size:18px;
+}
+#linki a:hover{
+color:blue;
+}
+
+#main{
+width:70%;
+float:left;
+}
+#right{
+color:black;
+max-width:25%;
+float:left;
+margin-left:45px;
+}
+#aktualnosci{
+text-align:left;
+margin-top:50px;
+}
+#reklama{
+margin-top:30px;
+max-height:10vw;
+height:7vw;
+border:1px solid black;
+overflow:auto;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #07464F;
+  color: white;
+  text-align: center;
+  margin-top:25px;
+}
+.obrazek{
+	float:left;
+	height:300px;
+	width:21vw;
+	padding:22px;
+}
+.podpis{
+	float:left;
+
+	height:50px;
+	width:21vw;
+	text-align:center;
+	padding:22px;
+	font-size:20px;
+}
+.galeria{
+text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	align-content:center;
+	width:100%;
+	margin-bottom:25px;
+}
+.nowa{
+	clear:both;
+}
+.wiersz{
+margin-left:auto;
+margin-right:auto;
+}
+.footer p{
+margin:0;
+padding:8px;
+}

@@ -1,0 +1,57 @@
+body{
+background-image: url("images/white-waves.png");
+margin:0;
+padding:0;
+color:white;
+}
+
+#pojem{
+	color:black;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+    margin-top:50px;
+	padding:0px;
+	width:75%;
+
+}
+
+.error_info{
+	color:red;
+	margin:0;
+}
+
+#powrot{
+	text-align:center; 
+	font-size:26px;
+	margin-top:60px;
+}
+
+.napis{
+	width:55%;
+	float:left;
+	text-align:center;
+}
+#plec, #przyciski{
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+.nowa{
+	clear:both;
+	
+}
+
+.el{
+	width:25%;
+	float:left;
+	padding:10px;
+	
+}
+.error{
+	border-radius:5px;
+	border:solid 2px red;
+}
+.footer{
+    position: fixed;
+}

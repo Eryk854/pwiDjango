@@ -1,0 +1,58 @@
+body {
+  background-image: url("images/white-waves.png");
+  margin: 0;
+  padding: 0;
+  color: white; }
+
+.karta {
+  display: inline-block;
+  width: 192px;
+  height: 125px;
+  margin-right: 25px;
+  margin-left: 0px;
+  background-position: center;
+  border: solid 4px #5A0893;
+  filter: brightness(100%);
+  border-radius: 4px;
+  transition: all 0.6s ease-in-out;
+  filter: brightness(60%);
+  background-image: url("images/tron.png");
+  cursor: pointer; }
+  .karta:hover {
+    border: solid 4px #5A0893;
+    filter: brightness(100%); }
+
+.footer {
+  position: fixed; }
+
+.kartaWlaczona {
+  display: inline-block;
+  width: 192px;
+  height: 125px;
+  margin-right: 25px;
+  margin-left: 0px;
+  background-position: center;
+  border: solid 4px #5A0893;
+  filter: brightness(100%);
+  border-radius: 4px;
+  transition: all 0.6s ease-in-out; }
+
+.plansza {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1010px;
+  color: white;
+  font-size: 48px;
+  color: black;
+  margin-top: 15vh; }
+
+.wygrane {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  margin-top: 15vh;
+  font-size: 48px; }
+
+/*# sourceMappingURL=style_memory1.css.map */

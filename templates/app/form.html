@@ -1,0 +1,83 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block css %}
+	<link rel="stylesheet" href = "{% static 'app/style_form.css' %}" type ="text/css"/>
+{% endblock %}
+
+{% block content %}
+<div id="pojem">
+		<form  action="#" method="post">
+
+			<div id='cala' class="napis" > Wprowadź imię : </div>
+			<div class="el" >
+				<input id="imie"  type="text" name="imie"/>
+			</div>
+			<div class="nowa"  > </div>
+			<div id="imie_error" class="error_info"></div>
+			<div class="nowa" > </div>
+
+			<div  class="napis" > Wprowadź nazwisko : </div>
+			<div class="el" >
+				<input id="nazwisko" type="text" name="nazwisko"/>
+			</div>
+			<div class="nowa" > </div>
+			<div id="nazwisko_error" class="error_info"></div>
+			<div class="nowa" > </div>
+
+			<div  class="napis" > Wprowadź miejscowość zamieszkania : </div>
+			<div class="el" >
+				<input id="miejscowosc" type="text" name="miejsc"/>
+			</div>
+			<div class="nowa" > </div>
+			<div id="miejscowosc_error" class="error_info">
+
+			</div>
+			<div class="nowa" > </div>
+			<div class="napis" > Wprowadź nazwę ulicy :</div>
+			<div class="el" >
+				<input id="ulica" type="text" name="ulica"/>
+			</div>
+			<div class="nowa" > </div>
+			<div id="ulica_error" class="error_info"> </div>
+			<div class="nowa" > </div>
+
+			<div class="napis" > Wprowadź nr.domu :</div>
+			<div class="el" >
+				<input id="nrDomu" type="text" name="nrDomu"/>
+			</div>
+			<div class="nowa" > </div>
+			<div id="nr_domu_error" class="error_info"> </div>
+			<div class="nowa" > </div>
+
+
+			<div class="napis" > Wprowadź nr. telefonu :</div>
+			<div class="el" >
+				<input id="nrTelefonu" type="number" name="nrTel"/>
+			</div>
+			<div class="nowa" > </div>
+			<div id="telefon_error" class="error_info"> </div>
+			<div class="nowa" > </div>
+
+			<div class="napis" > Wprowadź email :</div>
+			<div class="el" >
+				<input id="email" type="text" name="email"/>
+			</div>
+			<div class="nowa" > </div>
+			<div id="email_error" class="error_info"> </div>
+			<div class="nowa" > </div>
+
+			<div class="napis" > Wprowadź datę urodzenia : </div>
+			<div class="el" >
+				<input id="dataUrodzenia" type="text" name="dataUrodz" placeholder="rrrr-mm-dd"/>
+			</div>
+			<div class="nowa" > </div>
+			<div id="data_error" class="error_info"> </div>
+			<div class="nowa" > </div>
+
+			<input id="przycisk" type="submit" value="potwierdź" />
+		</form>
+	</div>
+
+	<script src="{% static 'app/js/check_form.js' %}" >  </script>
+
+{% endblock %}

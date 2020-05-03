@@ -1,0 +1,29 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block css %}
+	<link rel="stylesheet" href = "{% static 'app/style_memory1.css' %}" type ="text/css"/>
+{% endblock %}
+{% block content %}
+<div id="pojem">
+		<div id="content">
+			<div id="plansza" class="plansza">
+				<div id="karta0" class="karta"></div>
+				<div id="karta1" class="karta"></div>
+				<div id="karta2" class="karta"></div>
+				<div id="karta3" class="karta"></div>
+				<div style="clear:both"></div>
+				<div id="karta4" class="karta"></div>
+				<div id="karta5" class="karta"></div>
+				<div id="karta6" class="karta"></div>
+				<div id="karta7" class="karta"></div>
+				<div style="clear:both"></div>
+				<div id="karta8" class="karta"></div>
+				<div id="karta9" class="karta"></div>
+				<div id="karta10" class="karta"></div>
+				<div id="karta11" class="karta"></div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+</div>
+<script src="{% static 'app/js/script_memory.js' %}" >  </script>
+{% endblock %}

@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-image: url("images/white-waves.png"); }
+
+.image_container {
+  position: relative; }
+
+.responsive_foto {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  max-height: 400px;
+  filter: brightness(0.65); }
+
+#pojem {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: -1px;
+  padding: 0px;
+  width: 75%; }
+
+#linki {
+  list-style: none;
+  margin: 0;
+  padding: 0px; }
+  #linki li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px; }
+    #linki li a {
+      text-decoration: none;
+      color: black; }
+      #linki li a:hover {
+        color: blue; }
+
+#reklama {
+  margin-top: 30px;
+  max-height: 10vw;
+  height: 7vw;
+  border: 1px solid black;
+  overflow: auto; }
+
+@media (min-width: 1224px) {
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  #galeria {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 25px; }
+    #galeria figcaption {
+      height: 30px;
+      font-size: 18px;
+      padding: 22px; }
+    #galeria figure {
+      margin: 0;
+      padding: 0;
+      display: block;
+      float: left;
+      height: 300px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 27%;
+      padding: 22px; }
+      #galeria figure:hover img {
+        cursor: pointer;
+        -webkit-filter: sepia(0);
+        filter: sepia(0); }
+      #galeria figure img {
+        -webkit-filter: sepia(100%);
+        filter: sepia(100%);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; }
+
+  #main {
+    width: 70%;
+    float: left; }
+
+  #right {
+    max-width: 25%;
+    float: left;
+    margin-left: 45px; } }
+@media (min-width: 870px) and (max-width: 1224px) {
+  #main {
+    width: 100%; }
+
+  #right {
+    width: 100%;
+    text-align: center; }
+    #right h3 {
+      font-size: 30px;
+      margin-bottom: 0; }
+
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  #galeria {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto; }
+    #galeria figcaption {
+      height: 30px;
+      font-size: 18px;
+      padding: 22px; }
+    #galeria figure {
+      margin: 0;
+      padding: 0;
+      display: block;
+      float: left;
+      height: 300px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 40%;
+      padding: 22px; }
+      #galeria figure:hover img {
+        cursor: pointer;
+        -webkit-filter: sepia(0);
+        filter: sepia(0); }
+      #galeria figure img {
+        -webkit-filter: sepia(100%);
+        filter: sepia(100%);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; } }
+@media (max-width: 870px) {
+  #main {
+    width: 100%; }
+
+  #right {
+    width: 100%;
+    text-align: center; }
+    #right h3 {
+      font-size: 30px;
+      margin-bottom: 0; }
+
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .text-block {
+    font-size: 14px; }
+
+  #galeria {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto; }
+    #galeria figcaption {
+      height: 30px;
+      font-size: 18px; }
+    #galeria figure {
+      margin: 0;
+      padding: 0;
+      display: block;
+      float: left;
+      height: 300px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 100%; }
+      #galeria figure:hover img {
+        cursor: pointer;
+        -webkit-filter: sepia(0);
+        filter: sepia(0); }
+      #galeria figure img {
+        -webkit-filter: sepia(100%);
+        filter: sepia(100%);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; } }
+
+/*# sourceMappingURL=style_s1.css.map */

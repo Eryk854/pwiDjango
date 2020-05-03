@@ -1,0 +1,43 @@
+.navig{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #333;
+}
+.navig li{
+    display:inline;
+}
+.navig a{
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navig li a:hover {
+  background-color: #111;
+}
+
+a:visited{
+	color:white;
+	cursor:pointer;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #07464F;
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-top:45px;
+}
+
+.footer p{
+    margin:0;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}

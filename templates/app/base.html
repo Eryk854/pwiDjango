@@ -1,0 +1,34 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href = "{% static 'app/base.css' %}" type ="text/css"/>
+    {% block css%}
+
+    {% endblock %}
+    <title>PWI project</title>
+  </head>
+  <body>
+  <ul class="navig">
+		<li><a href="{% url 'main_page' %}">Strona domowa</a></li>
+		<li><a href="{% url 'memory_game' %}">Gra w pamięć</a></li>
+		<li><a href="{% url 'form' %}">Formularz</a></li>
+		<li><a href="{% static 'pwi.zip' %}" download="kody.zip" target="_blank">Pobierz pliki strony</a></li>
+
+		<li><a href="">Kontakt</a></li>
+  </ul>
+    {% block content %}
+
+    {% endblock %}
+  <footer class="footer">
+  		<p>Autor strony: Eryk Janowski </p>
+  		<p>Strona strzowona na potrzeby przedmiotu programowanie w internecie </p>
+	</footer>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block css %}
+	<link rel="stylesheet" href = "{% static 'app/style_s1.css' %}" type = "text/css"/>
+{% endblock %}
+{% block content %}
+	<div id="pojem">
+		<div id="content">
+			<div class="image_container">
+				<img  src="{% static 'app/images/plaza_duza.jpg' %}" class="responsive_foto" alt="plaża duża fotka" >
+				<div class="text-block">
+					<h2>Eryk Janowski</h2>
+					<p>Programowanie w internecie</p>
+				</div>
+			</div>
+
+
+
+			<div id="main">
+				<h2> Witam na mojej stronie  </h2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper libero id arcu lacinia, ac ullamcorper nunc feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin lobortis urna ex. Cras ultrices ut nibh nec vulputate. Suspendisse vitae pellentesque sem. Cras posuere aliquam enim vel ultrices. Vivamus a lobortis mauris.
+
+				Donec non dui laoreet, condimentum velit at, sagittis nibh. Maecenas vehicula laoreet ante vitae placerat. Donec mattis porta ipsum in mollis. Vestibulum vulputate hendrerit turpis ac commodo. Proin auctor eros at luctus tempor. Etiam a massa vulputate, tincidunt eros in, accumsan odio. Nunc magna magna, sollicitudin vel dapibus at, dictum nec risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nulla quis urna porttitor finibus. Quisque mattis dui tempus lorem venenatis, in lobortis urna accumsan.
+
+				Suspendisse potenti. Vestibulum at porttitor risus. Nulla semper libero neque, non maximus risus condimentum ac. Integer ut eleifend nulla. Morbi porta mattis quam nec placerat. Nullam eleifend vulputate diam, vitae vulputate ex porta id. Vestibulum maximus ac eros a pulvinar. In odio turpis, volutpat eu ligula a, condimentum tempus urna. Pellentesque hendrerit, sem ut condimentum ultricies, magna nisi feugiat metus, eget sodales lectus tortor in ex. Nullam et odio vitae lorem ultrices finibus ut vitae erat. Quisque eget rhoncus odio. Cras tempus, orci quis sagittis posuere, ipsum augue aliquet eros, eget varius purus ex ac arcu.
+
+				Suspendisse risus sem, finibus vel faucibus luctus, aliquam vel enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla risus tellus, facilisis in tortor et, commodo dapibus ipsum. Cras facilisis erat at velit consequat, fermentum pretium tortor vestibulum. Cras in dolor in lacus ultricies bibendum. Nam euismod velit mi. Ut dignissim neque pharetra erat ultrices, eget consequat nunc placerat. Proin nec placerat est. Morbi sed nunc in lorem ornare sagittis in et libero. Nullam eu risus accumsan, pulvinar libero quis, aliquet sem. In elit orci, vestibulum et eros sed, tincidunt lacinia quam. Curabitur at arcu consequat risus dapibus aliquam.
+				Pellentesque at vestibulum lectus. Duis ut commodo felis. Cras massa mauris, finibus eu magna ac, volutpat faucibus purus. Nunc pharetra turpis vel pellentesque iaculis. Quisque nec faucibus erat. Cras convallis facilisis tortor, nec malesuada tortor varius et. Suspendisse nunc metus, rutrum at scelerisque non, tristique sed tortor. Sed nec condimentum leo, ac egestas diam. Sed nunc tellus, aliquam non lacinia non, dignissim et sem. Morbi pellentesque lorem ut rutrum bibendum. Duis luctus lorem nec imperdiet bibendum. Duis pellentesque mi ex, id maximus eros eleifend vel. Sed eu congue massa, quis convallis purus. Fusce sodales erat mi, eget blandit metus finibus non.
+			</div>
+			<div id = "right">
+				<div id="aktualnosci">
+					<h3>Aktualności</h3>
+					<ul id = "linki">
+						<li><a href="{% url 'memory_game' %}">Gra memory</a></li>
+						<li><a href="{% url 'form' %}">Formularz (zadanie dodatkowe)</a></li>
+						<li><a href="{% static 'pwi.zip' %}" download="kody.zip" target="_blank">Pobierz pliki strony</a></li>
+						<li><a href="">Wiadomość 5</a></li>
+						<li><a href="">Wiadomość 6</a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div style="clear:both"></div>
+			<div id="galeria">
+				<h2> Galeria zdjęć - najwyższe wieżowce na Ziemi </h2>
+				<div class="wiersz" >
+					<figure >
+					<img src="{% static 'app/images/Burj_Khalifa.jpg' %}" alt="Burdż Chalifa" >
+					  <figcaption >Burdż Chalifa - Dubaj (828m.)</figcaption>
+					</figure>
+					<figure >
+					<img src="{% static 'app/images/Shanghai_Tower.jpg' %} " alt="Szanghai Tower" >
+					  <figcaption >Szanghai Tower - Szanghaj (632m.)</figcaption>
+					</figure>
+					<figure >
+					<img src="{% static 'app/images/Abraj-al-Bait-Towers.jpg' %}" alt="Abradż al-Bajt" >
+					  <figcaption >Abradż al-Bajt - Mekka(601m.)</figcaption>
+					</figure>
+					<figure >
+					<img src="{% static 'app/images/Ping_An_Tower.jpg' %}" alt="Ping An Finance Center" >
+					  <figcaption >Ping An Finance Center - Shenzhen (599m.)</figcaption>
+					</figure>
+					<figure >
+					<img src="{% static 'app/images/Lotte_world_tower.jpg' %}" alt="Lotte World Tower" >
+					  <figcaption >Lotte World Tower - Seul (554m.)</figcaption>
+					</figure>
+					<figure >
+					<img src="{% static 'app/images/Canton_CTF.jpg' %}" alt="Guangzohu CTF Finance Centre" >
+					  <figcaption >Guangzohu CTF Finance Centre - Katon (530m.)</figcaption>
+					</figure>
+				</div>
+				<div style="clear:both;" > </div>
+			</div>
+		</div>
+
+	</div>
+
+
+{% endblock %}
